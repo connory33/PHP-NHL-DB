@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOY_PATH=/home/poqbjh2lifzm/public_html/nhl-php/
+    - /bin/cp -R public_html/* $DEPLOY_PATH
